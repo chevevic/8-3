@@ -28,12 +28,12 @@ function addName(name) {
             if (binhDiv) {
                 binhDiv.style.display = 'flex';
             }
-    } else if (name === 'Phương_Linh') {
+    } else if (name === 'PLinh') {
             const phuongLinhDiv = document.getElementById('Phương_Linh');
             if (phuongLinhDiv) {
                 phuongLinhDiv.style.display = 'flex';
             }
-    } else if (name === 'Khánh_Linh') {
+    } else if (name === 'KLinh') {
             const khanhLinhDiv = document.getElementById('Khánh_Linh');
             if (khanhLinhDiv) {
                 khanhLinhDiv.style.display = 'flex';
@@ -58,7 +58,7 @@ function addName(name) {
             if (nganDiv) {
                 nganDiv.style.display = 'flex';
             }
-    } else if (name === 'Hà_My') {
+    } else if (name === 'Hà My') {
             const haDiv = document.getElementById('Hà_My');
             if (haDiv) {
                 haDiv.style.display = 'flex';
@@ -66,10 +66,13 @@ function addName(name) {
         } else {
             alert('Chúng tôi không quen cô gái này!');
             main.style.display = 'flex';
+            cancel.style.display = 'none';
         }
 }
 
 function cancel() {
+    const video = document.getElementById('mediaContainer');
+    video.style.display = 'none';
     const tramDiv = document.getElementById('Trâm');
     if (tramDiv) {
         tramDiv.style.display = 'none';
