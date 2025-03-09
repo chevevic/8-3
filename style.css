@@ -1,0 +1,290 @@
+body {
+    background-color: #fcbdec;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+#cancel {
+    display: none;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 9999;
+}
+
+/* Nút Thoát */
+#hax {
+    background: linear-gradient(135deg, #38ef7d, #11998e); /* Hiệu ứng màu gradient */
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    outline: none;
+}
+#hax:hover {
+    background: linear-gradient(135deg, #28c76f, #0b8270);
+    transform: scale(1.1);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+}
+#hax:active {
+    transform: scale(1);
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+}
+
+#Names {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #ff9ff3, #f783f7);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+    z-index: 1000;
+    width: 90%;
+    max-width: 400px; 
+    margin: 50px auto;
+    text-align: center;
+}
+#Names h1 {
+    font-size: 26px;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    margin-bottom: 10px;
+}
+#Names p {
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+#Names input {
+    width: 80%;
+    max-width: 300px;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-align: center;
+    margin-bottom: 15px;
+    box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+#Names button {
+    background-color: #ff4d6d;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow: 0 5px 10px rgba(255, 77, 109, 0.3);
+}
+#Names button:hover {
+    background-color: #e63950;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 15px rgba(230, 57, 80, 0.4);
+}
+#Trâm {
+    display: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #ff6b81;
+    padding: 15px 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: fit-content;
+    margin: auto;
+    border: 2px solid #ff4757;
+    max-width: 300px;
+}
+
+#Linh {
+    display: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #ffa502;
+    padding: 15px 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: fit-content;
+    margin: auto;
+    border: 2px solid #e67e22;
+    max-width: 300px;
+}
+
+#Bình {
+    display: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #2ed573;
+    padding: 15px 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: fit-content;
+    margin: auto;
+    border: 2px solid #1e90ff;
+    max-width: 300px;
+}
+
+#Tiên {
+    display: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #1e90ff;
+    padding: 15px 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: fit-content;
+    margin: auto;
+    border: 2px solid #3742fa;
+    max-width: 300px;
+}
+
+#Dung {
+    display: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #ff616f;
+    padding: 15px 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: fit-content;
+    margin: auto;
+    border: 2px solid #e84118;
+    max-width: 300px;
+}
+
+#Mẫn {
+    display: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #9295db;
+    padding: 15px 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: fit-content;
+    margin: auto;
+    border: 2px solid #2f3542;
+    max-width: 300px;
+}
+
+#Thy {
+    display: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #ff9ff3;
+    padding: 15px 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: fit-content;
+    margin: auto;
+    border: 2px solid #f368e0;
+    max-width: 300px;
+}
+
+#Ngân {
+    display: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #7bed9f;
+    padding: 15px 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: fit-content;
+    margin: auto;
+    border: 2px solid #2ed573;
+    max-width: 300px;
+}
+
+#Tâm {
+    display: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #a4b0be;
+    padding: 15px 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: fit-content;
+    margin: auto;
+    border: 2px solid #747d8c;
+    max-width: 300px;
+}
+
+#Phương_Linh {
+    display: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #ff6b81;
+    padding: 15px 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: fit-content;
+    margin: auto;
+    border: 2px solid #ff4757;
+    max-width: 300px;
+}
+
+#Khánh_Linh {
+    display: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #ffcc00;
+    padding: 15px 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: fit-content;
+    margin: auto;
+    border: 2px solid #eccc68;
+    max-width: 300px;
+}
+
+#Hà_My {
+    display: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #2f3542;
+    padding: 15px 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: fit-content;
+    margin: auto;
+    border: 2px solid #57606f;
+    max-width: 300px;
+}
