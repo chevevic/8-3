@@ -16,8 +16,6 @@ body {
     right: 20px;
     z-index: 9999;
 }
-
-/* Nút Thoát */
 #hax {
     background: linear-gradient(135deg, #38ef7d, #11998e); /* Hiệu ứng màu gradient */
     color: white;
@@ -71,7 +69,7 @@ body {
 
 #Names input {
     width: 80%;
-    max-width: 300px;
+    max-width: 500px;
     padding: 10px;
     font-size: 16px;
     border: none;
@@ -110,7 +108,8 @@ body {
     width: fit-content;
     margin: auto;
     border: 2px solid #ff4757;
-    max-width: 300px;
+    max-width: 500px;
+    margin-top: 150px;
 }
 
 #Linh {
@@ -119,14 +118,15 @@ body {
     font-weight: bold;
     color: #fff;
     background-color: #ffa502;
-    padding: 15px 25px;
+    padding: 15px 30px;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     text-align: center;
     width: fit-content;
     margin: auto;
     border: 2px solid #e67e22;
-    max-width: 300px;
+    max-width: 500px;
+    margin-top: 150px;
 }
 
 #Bình {
@@ -135,14 +135,15 @@ body {
     font-weight: bold;
     color: #fff;
     background-color: #2ed573;
-    padding: 15px 25px;
+    padding: 15px 30px;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     text-align: center;
     width: fit-content;
     margin: auto;
     border: 2px solid #1e90ff;
-    max-width: 300px;
+    max-width: 500px;
+    margin-top: 150px;
 }
 
 #Tiên {
@@ -151,14 +152,15 @@ body {
     font-weight: bold;
     color: #fff;
     background-color: #1e90ff;
-    padding: 15px 25px;
+    padding: 15px 30px;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     text-align: center;
     width: fit-content;
     margin: auto;
     border: 2px solid #3742fa;
-    max-width: 300px;
+    max-width: 500px;
+    margin-top: 150px;
 }
 
 #Dung {
@@ -167,14 +169,15 @@ body {
     font-weight: bold;
     color: #fff;
     background-color: #ff616f;
-    padding: 15px 25px;
+    padding: 15px 30px;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     text-align: center;
     width: fit-content;
     margin: auto;
     border: 2px solid #e84118;
-    max-width: 300px;
+    max-width: 500px;
+    margin-top: 150px;
 }
 
 #Mẫn {
@@ -183,14 +186,15 @@ body {
     font-weight: bold;
     color: #fff;
     background-color: #9295db;
-    padding: 15px 25px;
+    padding: 15px 30px;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     text-align: center;
     width: fit-content;
     margin: auto;
     border: 2px solid #2f3542;
-    max-width: 300px;
+    max-width: 500px;
+    margin-top: 150px;
 }
 
 #Thy {
@@ -199,14 +203,15 @@ body {
     font-weight: bold;
     color: #fff;
     background-color: #ff9ff3;
-    padding: 15px 25px;
+    padding: 15px 30px;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     text-align: center;
     width: fit-content;
     margin: auto;
     border: 2px solid #f368e0;
-    max-width: 300px;
+    max-width: 500px;
+    margin-top: 150px;
 }
 
 #Ngân {
@@ -215,14 +220,15 @@ body {
     font-weight: bold;
     color: #fff;
     background-color: #7bed9f;
-    padding: 15px 25px;
+    padding: 15px 30px;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     text-align: center;
     width: fit-content;
     margin: auto;
     border: 2px solid #2ed573;
-    max-width: 300px;
+    max-width: 500px;
+    margin-top: 150px;
 }
 
 #Tâm {
@@ -231,14 +237,15 @@ body {
     font-weight: bold;
     color: #fff;
     background-color: #a4b0be;
-    padding: 15px 25px;
+    padding: 15px 30px;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     text-align: center;
     width: fit-content;
     margin: auto;
     border: 2px solid #747d8c;
-    max-width: 300px;
+    max-width: 500px;
+    margin-top: 150px;
 }
 
 #Phương_Linh {
@@ -247,14 +254,15 @@ body {
     font-weight: bold;
     color: #fff;
     background-color: #ff6b81;
-    padding: 15px 25px;
+    padding: 15px 30px;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     text-align: center;
     width: fit-content;
     margin: auto;
     border: 2px solid #ff4757;
-    max-width: 300px;
+    max-width: 500px;
+    margin-top: 150px;
 }
 
 #Khánh_Linh {
@@ -263,14 +271,15 @@ body {
     font-weight: bold;
     color: #fff;
     background-color: #ffcc00;
-    padding: 15px 25px;
+    padding: 15px 30px;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     text-align: center;
     width: fit-content;
     margin: auto;
     border: 2px solid #eccc68;
-    max-width: 300px;
+    max-width: 500px;
+    margin-top: 150px;
 }
 
 #Hà_My {
@@ -279,12 +288,25 @@ body {
     font-weight: bold;
     color: #fff;
     background-color: #2f3542;
-    padding: 15px 25px;
+    padding: 15px 30px;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     text-align: center;
     width: fit-content;
     margin: auto;
     border: 2px solid #57606f;
-    max-width: 300px;
+    max-width: 500px;
+    margin-top: 150px;
+}
+#mediaContainer {
+    display: none;
+    position: fixed;
+    bottom: 30px;
+    left: 57.2%;
+    transform: translateX(-50%);
+    width: 30%;
+    height: 30%;
+    z-index: 200;
+    display: flex;
+    align-items: center;
 }
